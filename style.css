@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    margin: 0 20%;
+    max-width: 800px;
+}
+
+.disability-num {
+    padding: 20px 40px;
+    margin: 15px 10px;
+}
+
+.entered-rating-btn {
+    padding: 5px;
+    margin-right: 3px;
+}
+
+.additional-calcs {
+    display: inline-flex;
+}
+
+.col {
+    margin-right: 50px;;
+}
