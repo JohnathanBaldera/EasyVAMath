@@ -12,17 +12,18 @@ for (let btn of disabilityNums) {
         //Sorting array in reversed order
         enteredDisabilityPercentages.sort(function(a, b){return b-a})
 
-        let calNum;
         document.querySelector(".entered-ratings").innerHTML = ""
         for (let disPer of enteredDisabilityPercentages) {
             document.querySelector(".entered-ratings").innerHTML += `<button class="entered-rating-btn">${disPer}% X</button>`
             let calNum = leftoverPercentage * (disPer * .01)
             calNum = Math.round(calNum)
+            console.log(calNum)
             leftoverPercentage -= calNum
+            document.querySelector(".disability-leftover-amount").textContent = `${leftoverPercentage}`
+            document.querySelector(".true-percentage-amount").textContent = `${100 - leftoverPercentage}`
         }
         document.querySelector(".current-rating").textContent = `${Math.round((100 - leftoverPercentage) * .10) * 10}%`
-        document.querySelector(".true-percentage-amount").textContent = ``
-        document.querySelector(".disability-leftover-amount").textContent = `${calNum}`
+        
            
     })
 }

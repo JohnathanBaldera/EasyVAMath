@@ -7,8 +7,8 @@ body {
 }
 
 .container {
-    margin: 0 20%;
-    max-width: 800px;
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 .disability-num {
@@ -22,9 +22,10 @@ body {
 }
 
 .additional-calcs {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 .col {
-    margin-right: 50px;;
+    margin-right: 50px;
 }
