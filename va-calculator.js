@@ -30,7 +30,12 @@ for (let btn of disabilityNums) {
             btn.addEventListener("click", () => {
                 let percentage = btn.textContent.match(/(\d+)/)[0]
                 enteredDisabilityPercentages.pop(percentage)
+                
+                let num = btn.textContent.match(/(\d+)/)[0]
+                enteredDisabilityPercentages.pop(num)
                 btn.remove()
+                
+
             })
         }
     })
