@@ -3,8 +3,12 @@
 }
 
 body {
+    background: linear-gradient(#780206, #061161);
     text-align: center;
+    color: whitesmoke;
 }
+
+
 
 .container {
     margin: 0 auto;
@@ -14,6 +18,8 @@ body {
 .disability-num {
     padding: 20px 40px;
     margin: 15px 10px;
+    background: yellow;
+    border: none;
 }
 
 .entered-rating-btn {
@@ -26,6 +32,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .col {
     margin-right: 50px;
 }
