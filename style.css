@@ -8,23 +8,32 @@ body {
     color: whitesmoke;
 }
 
-
-
 .container {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 500px;
 }
 
 .disability-num {
-    padding: 20px 40px;
-    margin: 15px 10px;
+    padding: .75em 2em;
+    margin: 1em;
     background: yellow;
     border: none;
 }
 
+.disability-num:hover,
+.disability-num:focus,
+.entered-rating-btn:hover,
+.entered-rating-btn:focus  {
+    cursor: pointer;
+    background-color: burlywood;
+}
+
 .entered-rating-btn {
-    padding: 5px;
-    margin-right: 3px;
+    padding: .75em 2em;
+    margin-right: 1em;
+    font-weight: 700;
+    background-color: rgb(225, 211, 9);
+    border: none;
 }
 
 .additional-calcs {
@@ -40,4 +49,5 @@ body {
 img {
     width: 100%;
     max-width: fit-content;
+    margin-top: 1em;
 }
