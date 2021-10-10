@@ -25,7 +25,7 @@ for (let btn of disabilityNums) {
         let num = btn.textContent.match(/(\d+)/)[0]
         enteredDisabilityPercentages.push(num)
 
-        //Sorting array in reversed order
+        //Sorting array in reversed order for proper calculation - VA Math starts with highest % first.
         enteredDisabilityPercentages.sort(function(a, b){return b-a})
         calculateDisability()
     })
@@ -39,31 +39,3 @@ enteredRatingDiv.addEventListener("click", (e) => {
             calculateDisability()
         }
 })
-        
-        
-        //Removing a percentage
-        // TODO: Recalulate once button is removed
-
-        // const enteredNums = document.getElementsByClassName("entered-rating-btn")
-        // for (let enteredBtn of enteredNums) {
-        //     enteredBtn.addEventListener("click", () => {
-        //         let percentage = enteredBtn.textContent.match(/(\d+)/)[0]
-        //         let idx = enteredDisabilityPercentages.indexOf(percentage)
-        //         enteredDisabilityPercentages.splice(idx, 1)
-
-        //         document.querySelector(".entered-ratings").innerHTML = ""
-        //         for (let disPer of enteredDisabilityPercentages) {
-        //             document.querySelector(".entered-ratings").innerHTML += `<button class="entered-rating-btn">${disPer}% X</button>`
-        //             let calNum = 100 * (disPer * .01)
-        //             calNum = Math.round(calNum)
-        //             leftoverPercentage = 100 - calNum
-        //             document.querySelector(".disability-leftover-amount").textContent = `${leftoverPercentage}`
-        //             document.querySelector(".true-percentage-amount").textContent = `${100 - leftoverPercentage}`
-        //         }
-        //         document.querySelector(".current-rating").textContent = `${Math.round((100 - leftoverPercentage) * .10) * 10}%`                
-
-        //     })
-        // }
-//     })
-           
-// };
