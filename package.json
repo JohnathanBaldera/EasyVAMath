@@ -1,0 +1,19 @@
+{
+  "name": "transitioning-military",
+  "version": "1.0.0",
+  "description": "An All-in-One military transition page from an Army Soldier currently Transitioning",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnathanBaldera/Transitioning-Military.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnathanBaldera/Transitioning-Military/issues"
+  },
+  "homepage": "https://github.com/JohnathanBaldera/Transitioning-Military#readme"
+}
