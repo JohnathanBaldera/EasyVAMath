@@ -3,9 +3,9 @@
 }
 
 body {
-    background: linear-gradient(#780206, #061161);
+    background: #0F044C;
     text-align: center;
-    color: whitesmoke;
+    color: #EEEEEE;
 }
 
 .container {
@@ -16,8 +16,10 @@ body {
 .disability-num {
     padding: .75em 2em;
     margin: 1em;
-    background: yellow;
+    background: #EEEEEE;
     border: none;
+    font-weight: bold;
+    border-radius: 5%;
 }
 
 .disability-num:hover,
@@ -25,15 +27,16 @@ body {
 .entered-rating-btn:hover,
 .entered-rating-btn:focus  {
     cursor: pointer;
-    background-color: burlywood;
+    background-color: #787A91;
 }
 
 .entered-rating-btn {
-    padding: .75em 2em;
+    padding: .5em 1em;
     margin-right: 1em;
     font-weight: 700;
     background-color: rgb(225, 211, 9);
     border: none;
+    border-radius: 5%;
 }
 
 .additional-calcs {
