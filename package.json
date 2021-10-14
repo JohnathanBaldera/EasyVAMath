@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JohnathanBaldera/Transitioning-Military/issues"
   },
-  "homepage": "https://github.com/JohnathanBaldera/Transitioning-Military#readme"
+  "homepage": "https://github.com/JohnathanBaldera/Transitioning-Military#readme",
+  "dependencies": {
+    "workbox": "^0.0.0"
+  }
 }

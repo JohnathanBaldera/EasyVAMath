@@ -10,7 +10,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 800px;
 }
 
 .disability-num {
@@ -20,6 +20,7 @@ body {
     border: none;
     font-weight: bold;
     border-radius: 5%;
+    font-size: 1.25em;
 }
 
 .disability-num:hover,
