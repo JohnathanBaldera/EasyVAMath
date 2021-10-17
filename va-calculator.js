@@ -6,7 +6,7 @@ const enteredRatingDiv = document.getElementById("entered-ratings")
 const calculateDisability = () => {
     let leftoverPercentage = 100
     enteredRatingDiv.innerHTML = ""
-    document.querySelector(".disability-leftover-amount").textContent = 0
+    document.querySelector(".disability-leftover-amount").textContent = 100
     document.querySelector(".true-percentage-amount").textContent = 0
     document.querySelector(".current-rating").textContent = 0
         for (let disPer of enteredDisabilityPercentages) {
