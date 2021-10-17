@@ -1,12 +1,12 @@
-import {registerRoute} from 'workbox-routing';
+import { registerRoute } from "workbox-routing";
 
-import {StaleWhileRevalidate} from 'workbox-strategies';
+import { StaleWhileRevalidate } from "workbox-strategies";
 
 registerRoute(
-  ({request}) => request.destination === 'va-calculator' ||
-                  request.destination === 'style',
+  ({ request }) =>
+    request.destination === "va-calculator" || request.destination === "style",
   new StaleWhileRevalidate({
-    cacheName: 'static-resources',
+    cacheName: "static-resources",
   })
 );
 

@@ -4,6 +4,7 @@
   "description": "An All-in-One military transition page from an Army Soldier currently Transitioning",
   "main": "service-worker.js",
   "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/JohnathanBaldera/Transitioning-Military#readme",
   "dependencies": {
     "workbox": "^0.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
   }
 }
