@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
+node_modules/.DS_Store
+node_modules/core-js/.DS_Store
+node_modules/core-js/fn/.DS_Store
+node_modules/core-js/library/.DS_Store
